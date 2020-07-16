@@ -1,4 +1,122 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ================ */
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    /* width: 50%; */
+    margin: auto;
+}
+
+
+/* 
+@media (min-width:768px) {
+    .container {
+        width: 750px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px
+    }
+} */
+
+
+/* .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+} */
+
+
+/* ================== */
+
+
+/* .container{
+   padding-right:15px;
+   padding-left:15px;
+   margin-right:auto;
+   margin-left:auto
+} */
+
+header {
+    width: 1368px;
+    height: 150px;
+    background-color: #ffffff;
+    margin: 0;
+    position: absolute;
+}
+
+.hapo-logo {
+    float: left;
+    background-image: url('../images/Hapo_Learn_logo.png') re;
+    /* width: 340px;
+    height: 70px;
+    margin-top: 150px;
+    margin-left: 0;
+    position: absolute; */
+}
+
+.hapo-logo img {
+    width: 340px;
+    height: 70px;
+    margin-top: 34px;
+    margin-bottom: 60px;
+    margin-left: 34px;
+}
+
+.hapo-nav {
+    float: right;
+}
+
+.hapo-nav .hapo-nav-item {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    list-style-type: none;
+    padding-right: 110px;
+}
+
+.hapo-nav .hapo-nav-item li {
+    /* display: inline; */
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.hapo-nav .hapo-nav-item li a {
+    font-family: Open Sans;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+    font-style: normal;
+    color: #505353;
+    text-transform: uppercase;
+    display: block;
+    border-radius: 17px;
+    padding: 10px 10px 10px 10px;
+}
+
+.hapo-nav .hapo-nav-item li a:hover {
+    background-color: #B2D235;
+    color: #FEFFFF;
 }
