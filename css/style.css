@@ -4,12 +4,14 @@
   font-weight: 300;
   src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
 }
+
 @font-face {
   font-family: 'UTM';
   src: url(..\fonts/UTM\ BryantLG.ttf);
   font-style: normal;
   font-weight: normal;
 }
+
 @font-face {
   font-family: 'UTM';
   src: url(..\fonts/UTM\ BryantLG_B.ttf);
@@ -19,4 +21,128 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+  font-family: UTM BryantLG;
+  background: #505353;
+  width: 1440px;
+  height: 308px;
+}
+
+footer .hapo-footer-content {
+  position: absolute;
+}
+
+footer .hapo-footer-logo img {
+  width: 291.6px;
+  height: 60px;
+  margin-left: 132px;
+  margin-top: 46px;
+}
+
+footer .hapo-footer-content p {
+  margin-top: 0px;
+  margin-left: 198px;
+  width: 249px;
+  height: 50px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+}
+
+footer .hapo-footer-content {
+  display: flex;
+}
+
+.hapo-nav-footer .hapo-footer {
+  margin: 30px;
+  padding: 20px;
+  font-size: 30px;
+  list-style-type: none;
+}
+
+.hapo-footer>ul {
+  margin-top: 70px;
+  margin-left: 80px;
+  list-style-type: none;
+}
+
+.hapo-footer>ul>li {
+  margin-top: 15px;
+}
+
+.hapo-footer>ul>li a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+}
+
+.hapo-footer .hapo-nav-footer-icon {
+  display: flex;
+}
+
+.hapo-footer .hapo-nav-footer-icon {
+  margin-left: 100px;
+}
+
+.hapo-footer .hapo-nav-footer-icon a {
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin-top: 100px;
+  margin-left: 30px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+
+.hapo-footer .hapo-nav-footer-icon a span {
+  height: 28px;
+  line-height: 30px;
+}
+
+
+/* footerCopyRight */
+footer .hapo-CopyRight {
+  position: absolute;
+  top: 270px;
+  background: #454545;
+  height: 38px;
+  width: 1440px;
+}
+
+footer .hapo-CopyRight p {
+  margin-left: 540px;
+  margin-top: 12px;
+  font-family: UTM BryantLG;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 18px;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
 }
