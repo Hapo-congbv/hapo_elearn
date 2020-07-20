@@ -6,17 +6,21 @@
 }
 @font-face {
   font-family: 'UTM';
-  src: url(..\fonts/UTM\ BryantLG.ttf);
+  src: url(../fonts/UTM\ BryantLG.ttf);
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: 'UTM';
-  src: url(..\fonts/UTM\ BryantLG_B.ttf);
+  src: url(../fonts/UTM\ BryantLG_B.ttf);
   font-weight: bold;
 }
 
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: 'Open Sans';
 }
